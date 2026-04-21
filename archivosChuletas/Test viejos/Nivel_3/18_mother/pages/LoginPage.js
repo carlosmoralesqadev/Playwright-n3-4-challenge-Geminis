@@ -4,6 +4,15 @@ import { BasePage } from "./base/BasePage.js";
 
 export class LoginPage extends BasePage {
     /** @param {import('@playwright/test').Page} page */
+
+
+
+
+
+
+
+
+    
     constructor(page) {
         super(page);
 
