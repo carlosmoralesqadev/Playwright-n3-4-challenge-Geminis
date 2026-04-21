@@ -1,5 +1,5 @@
-import { expect } from '@playwright/test';
-import { Locators } from "../../data/testData.js"
+import { expect } from "@playwright/test";
+import { Locators } from "../../data/18_testData.js";
 
 export class BasePage {
     /** @param {import('@playwright/test').Page} page */

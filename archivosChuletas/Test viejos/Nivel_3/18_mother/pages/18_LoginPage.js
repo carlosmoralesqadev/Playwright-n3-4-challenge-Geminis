@@ -1,18 +1,10 @@
-import { Locators } from "../data/testData.js";
+import { Locators } from "../data/18_testData.js";
 import { expect } from "@playwright/test";
 import { BasePage } from "./base/BasePage.js";
 
 export class LoginPage extends BasePage {
     /** @param {import('@playwright/test').Page} page */
 
-
-
-
-
-
-
-
-    
     constructor(page) {
         super(page);
 
