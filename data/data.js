@@ -9,18 +9,25 @@ export const Locators = {
     },
 
     selectores: {
+        general: {
+            title: "title" /*data-id*/,
+        },
+
         login: {
             nameInput: /Username/i /*Role*/,
             passInput: /Password/i /*Role*/,
             btnLogin: /Login/i /*Role*/,
         },
 
-        products: {
-            listContainer: "inventory-list" /*data-id*/,
+        inventory: {
+            productContainer: "inventory-item" /*data-id*/,
             btnAddToCart: /Add to cart/i /*Role*/,
             iconCart: "shopping-cart-link" /*data-id*/,
-            title: "title", /*data-id*/
-            //nameProductInCart: xx, */
+            titleTextInventory: /Products/i,
+        },
+
+        cart: {
+            titleTextCart: /Your Cart/i,
         },
     },
 };
