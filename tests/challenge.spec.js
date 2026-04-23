@@ -21,11 +21,12 @@ test.describe("Challenge - 18", () => {
         await login.navegar()
         await login.loginExitoso()
 
-        await inventory.agregarProductoPorIndice(0)
 
+        await inventory.agregarProductoPorIndice(0)
         await inventory.navegarToCartPage()
 
 
+        await cart.coincideElNombrePorIndice(0)
 
     })
 

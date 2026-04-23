@@ -28,6 +28,9 @@ export const Locators = {
 
         cart: {
             titleTextCart: /Your Cart/i,
+            inventoryItem: "inventory-item",
+            inventoryItemName: "inventory-item-name" /*data-id*/,
+            productFirstNameText: /Sauce Labs Backpack/i,
         },
     },
 };

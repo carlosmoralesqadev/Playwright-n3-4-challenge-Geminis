@@ -1,6 +1,6 @@
 import { Locators } from "../data/data.js";
 import { BasePage } from "./base/BasePage.js";
-import { test, expect } from "@playwright/test";
+import { expect   } from "@playwright/test";
 
 export class InventoryPage extends BasePage {
     /** @param {import ('@playwright/test').Page} page */
@@ -18,7 +18,7 @@ export class InventoryPage extends BasePage {
     async agregarProductoPorIndice(indice) {
         const item = this.productContainer.nth(indice);
 
-        await item.getByRole("button", { name: Locators.selectores.inventory.btnAddToCart });
+        await item.getByRole("button", { name: Locators.selectores.inventory.btnAddToCart }).click();
     }
 
     async navegarToCartPage() {
